@@ -1,6 +1,6 @@
 {
   "name": "fast-mhtml2html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "mhtml convert to html single file",
   "main": "index.js",
   "repository": "https://github.com/activeliang/fast-mhtml2html.git",
