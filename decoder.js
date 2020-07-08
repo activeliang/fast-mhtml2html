@@ -1,9 +1,9 @@
-const { decode } = require('64');
+const Base64 = require('js-base64').Base64;
 
 module.exports = (encoding, body) => {
   switch (encoding) {
     case 'base64':
-      return decode(body);
+      return Buffer.from(Base64.decode(body.toString()))
     case 'quoted-printable':
       return convertQuotedPrintable(body);
     case '8bit':
