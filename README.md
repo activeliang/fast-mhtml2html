@@ -4,8 +4,6 @@
 
 `fast-mhtml2html` converts `MHTML` files to a single `HTML` file using javascript.
 
-[Usage](#usage) | [Development](#development)
-
 ## Usage
 
 `fast-mhtml2html` is compatible with Node >= v10.
@@ -24,3 +22,6 @@ const mhtml2html = require('fast-mhtml2html');
 const mhtml = '<your MHTML string or MHTML buffer data>';
 const html = fast-mhtml2html.convert(mhtml)
 ```
+
+# Tips
+> This project is based on [mhtml-parser: https://github.com/testimio/mhtml-parser](https://github.com/testimio/mhtml-parser), and it does not support Chinese GBK
