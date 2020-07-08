@@ -20,7 +20,7 @@
 const mhtml2html = require('fast-mhtml2html');
 
 const mhtml = '<your MHTML string or MHTML buffer data>';
-const html = fast-mhtml2html.convert(mhtml)
+const html = mhtml2html.convert(mhtml)
 ```
 
 # Tips
