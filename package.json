@@ -1,0 +1,16 @@
+{
+  "name": "fast-mhtml2html",
+  "version": "1.0.0",
+  "description": "mhtml convert to html single file",
+  "main": "index.js",
+  "repository": "https://github.com/activeliang/fast-mhtml2html.git",
+  "author": "activeliang",
+  "license": "MIT",
+  "dependencies": {
+    "64": "^0.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "css-tree": "^1.0.0-alpha.39",
+    "filenamify": "^4.1.0",
+    "iconv-lite": "^0.6.2"
+  }
+}
